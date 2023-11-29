@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Todo_List-.todowoo.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'todowoo.settings')
 
 application = get_wsgi_application()
